@@ -15,11 +15,9 @@ The rubik_test database should also have a table called **cube_records**.
  
 The cubes table (in both databases) should have three columns, 
 
-* **id** the primary key column, an auto-incrementing integer 
+* **id** the primary key column, an integer, autoincrement. 
 * **solver_name** for the name of a thing that can solve Rubik’s cubes
 * **time_seconds** a double number, for the time taken to solve the Rubik’s cube. 
-
-Verify the DB connection URL is correct in DBConfig.
 
 Here’s some example data:
 
@@ -37,6 +35,14 @@ Patrick Ponce         4.69
 
 Source: [http://www.recordholders.org/en/list/rubik.html](http://www.recordholders.org/en/list/rubik.html)
 
+An example SQL statement to create a table is as follows:
+
+```
+create table cube_records (id integer primary key autoincrement, solver_name text, time_seconds number);
+
+```
+
+Verify the DB connection URL is correct in DBConfig.
 
 ### GUI setup
 

@@ -8,9 +8,7 @@ import javax.swing.*;
 import java.lang.reflect.Field;
 import java.sql.*;
 
-import static junit.framework.TestCase.assertEquals;
-import static junit.framework.TestCase.assertTrue;
-import static junit.framework.TestCase.fail;
+import static junit.framework.TestCase.*;
 
 /**
  * Created by clara on 9/18/17.
@@ -32,8 +30,8 @@ public class RubikTest {
     
     private JButton deleteSolverButton;
     
-    private String testDatabaseURL = "jdbc:sqlite://rubik_test";
-    private String developmentDatabaseURK = "jdbc:sqlite://rubik.db";
+    private String testDatabaseURL = "jdbc:sqlite:rubik_test.db";
+    private String developmentDatabaseURL = "jdbc:sqlite:rubik.db";
     
     
     private Rubik rubikProgram;
@@ -115,7 +113,6 @@ public class RubikTest {
         
     }
     
-    
     private Object getField(RubikGUI gui, String field) {
         
         try {
@@ -132,6 +129,63 @@ public class RubikTest {
         
     }
     
+    
+    @Test
+    public void testTestDatabaseAndTableExists() throws Exception {
+        testTableExists(testDatabaseURL);
+    }
+    
+    
+    
+    @Test
+    public void testTestDevelopmentDatabaseAndTableExists() throws Exception {
+        testTableExists(developmentDatabaseURL);
+    }
+    
+    
+    
+    public void testTableExists(String dbURL) throws Exception {
+        
+        try (Connection conn = DriverManager.getConnection(dbURL);
+             Statement statement = conn.createStatement() ) {
+            
+            String tableInfo = "PRAGMA table_info(inventory)";
+            ResultSet rs = statement.executeQuery(tableInfo);
+            
+            
+            rs.next();
+    
+            String idCol = rs.getString(2);
+            String idColType = rs.getString(3);
+            int isPrimaryKey = rs.getInt(5);
+            
+            rs.next();
+            String solverNameColumn = rs.getString(2);
+            String solverNameType = rs.getString(3);
+            
+            rs.next();
+            
+            String timeCol = rs.getString(2);
+            String timeType = rs.getString(3);
+            
+            
+            assertFalse("The database should only contain three columns: id, solver_name, and time_seconds.", rs.next());   // No more columns.
+    
+            assertEquals("The first column's name should be 'id'", "id", solverNameColumn);
+            assertEquals("The first column's type should be 'integer'", "integer", solverNameType);
+            assertEquals("The first column, id, should be a primary key", 1, isPrimaryKey);
+            
+            assertEquals("The second column's name should be 'solver_name'", "solver_name", solverNameColumn);
+            assertEquals("The second column's type should be 'text'", "text", solverNameType);
+            
+            assertEquals("The third column's name should be 'time_seconds'", "time_seconds", timeCol);
+            assertEquals("The third column's type should be 'number'", "number", timeType);
+            
+        } catch (SQLException e) {
+            throw e;
+        }
+        
+    }
     
     
     @Test(timeout = timeout)
