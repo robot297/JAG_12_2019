@@ -1,0 +1,10 @@
+{ "week" : 10 ,
+  "questions" : [
+    {
+      "question" : 1,
+      "java_file": "Rubik",
+      "test_file": "RubikTest",
+      "points": 20
+    }
+  ]
+}
