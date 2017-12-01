@@ -1,6 +1,5 @@
 package week_11;
 
-
 /* Talk to your database here. */
 
 import javax.swing.table.AbstractTableModel;

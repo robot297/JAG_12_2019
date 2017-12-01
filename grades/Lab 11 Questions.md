@@ -62,6 +62,8 @@ When the program loads, it will show all (solver_name and time_seconds) data fro
 
 *Keep your data sorted in order of time, with fastest first*.
 
+You will need to create a table model for `solversTable`. This table model will provide data from the database to its JTable.
+
 **For adding a new cube solver to the database:**
 
 * A JTextField called `newCubeSolverNameText`
@@ -97,7 +99,6 @@ Show a JOptionPane dialog with 'Yes' and 'No' options to confirm the delete oper
 If the user clicks 'No' then do nothing.
 
 
-
-For all parts of this lab, make sure you add appropriate error handling, and close all resources (ResultSets, PreparedStatements, Statements, Connections) when your program is done with them. Use PreparedStatements for updates, add, delete operations. 
+For all parts of this lab, make sure you add appropriate error handling. 
 
 When showing dialogs, use the methods provided in RubikGUI, or your tests will time out. 
