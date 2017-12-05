@@ -70,7 +70,7 @@ You will need to create a table model for `solversTable`. This table model will 
 * A JTextField called `newCubeSolverTimeText`
 * A JButton called `addNewSolverButton`
 
-When the user clicks the `addNewSolverButton` button, validate that a name and a double time have been entered in the appropriate JTextBoxes. The time must be positive, and not zero. If so, add the data to the database and update `solversTable`. 
+When the user clicks the `addNewSolverButton` button, validate that a name and a double time have been entered in the appropriate JTextBoxes. The time must be positive, and not zero. The name must be at least one character. Empty names are not acceptable. If so, add the data to the database and update `solversTable`. 
 
 If not, display an JOptionPane alert dialog, and do not modify the database or JTable.
 
