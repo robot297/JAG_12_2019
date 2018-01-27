@@ -1,7 +1,5 @@
 package week_11;
 
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
 
 import javax.swing.*;
@@ -39,7 +37,6 @@ public class RubikTest {
     
     private RubikGUIMockDialog gui;
     
-    private final int timeout = 3000;
     
     
     public void setup(boolean testData) {
@@ -131,13 +128,13 @@ public class RubikTest {
     }
     
     
-    @Test
+    @Test(timeout=3000)
     public void testTestDatabaseAndTableExists() throws Exception {
         testTableExists(testDatabaseURL);
     }
     
     
-    @Test
+    @Test(timeout=3000)
     public void testTestDevelopmentDatabaseAndTableExists() throws Exception {
         testTableExists(developmentDatabaseURL);
     }
@@ -200,7 +197,7 @@ public class RubikTest {
     }
     
     
-    @Test(timeout = timeout)
+    @Test(timeout=3000)
     public void testTableRowSelection() {
         
         setup(true);
@@ -210,7 +207,7 @@ public class RubikTest {
     }
     
     
-    @Test(timeout = timeout)
+    @Test(timeout=3000)
     public void testTableSetupWithTestData() {
         
         setup(true);     // Expect data in table
@@ -250,7 +247,7 @@ public class RubikTest {
     
     
     
-    @Test(timeout = timeout)
+    @Test(timeout=3000)
     public void testAddNewSolver() {
         
         setup(false);   // no test data
@@ -313,7 +310,7 @@ public class RubikTest {
     }
     
     
-    @Test(timeout = timeout)
+    @Test(timeout=3000)
     public void testEditSolverTimeValid() {
         
         setup(true);     // Expect data in table
@@ -359,7 +356,7 @@ public class RubikTest {
     }
     
     
-    @Test(timeout = timeout)
+    @Test(timeout=3000)
     public void testEditSolverTimeInvalid() {
         
         setup(true);     // Expect data in table
@@ -397,7 +394,7 @@ public class RubikTest {
     
     
     
-    @Test(timeout = timeout)
+    @Test(timeout=3000)
     public void testDeleteSolver() {
         
         setup(true);     // Expect data in table

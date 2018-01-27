@@ -4,18 +4,16 @@ Write an GUI application to manage a database of things that can solve Rubik's c
 
 ### Database setup:
 
-**Use a SQLite database.**
+Using the SQLite shell or DB Browser, create a database in a file called **rubik.db**. 
 
-You will need to create a database called **rubik.db**. 
-
-You will also need to create a test database file called **rubik_test.db**.
+And, create a test database file called **rubik_test.db**.
 
 The rubik database should have a table called **cube_records**.
-The rubik_test database should also have a table called **cube_records**.
+The rubik_test database should also have a table called **cube_records**. Both tables should have the same structure.
  
 The cubes table (in both databases) should have three columns, 
 
-* **id** the primary key column, an integer, autoincrement. 
+* **id** the primary key column, an integer, used as a rowid. 
 * **solver_name** for the name of a thing that can solve Rubik’s cubes
 * **time_seconds** a double number, for the time taken to solve the Rubik’s cube. 
 
@@ -38,9 +36,17 @@ Source: [http://www.recordholders.org/en/list/rubik.html](http://www.recordholde
 An example SQL statement to create a table is as follows:
 
 ```
-create table cube_records (id integer primary key autoincrement, solver_name text, time_seconds number);
+create table cube_records (id integer primary key, solver_name text, time_seconds number);
 
 ```
+
+When inserting data using this form, the value for the id column will be assigned by the database automatically. 
+
+```
+insert into cube_records (solver_name, time_seconds) values ('Sub1', 0.637);
+
+```
+
 
 Verify the DB connection URL is correct in DBConfig.
 

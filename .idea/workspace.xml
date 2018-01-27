@@ -4,6 +4,7 @@
     <list default="true" id="973dfb87-52db-448c-966c-e7a5a696eb0a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grades/Lab 11 Questions.md" afterPath="$PROJECT_DIR$/grades/Lab 11 Questions.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/week_11/RubikTest.java" afterPath="$PROJECT_DIR$/src/test/java/week_11/RubikTest.java" />
     </list>
     <ignored path="Java_Auto_Grader_5_6_7.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,15 +26,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Lab 11 Questions.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Lab 11 Questions.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grades/Lab 11 Questions.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="183">
-                <caret line="72" column="256" lean-forward="false" selection-start-line="72" selection-start-column="256" selection-end-line="72" selection-end-column="256" />
+              <first_editor relative-caret-position="-184">
+                <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RubikTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/week_11/RubikTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#resetTable#0;class#RubikTest#0" expanded="false" />
+                <element signature="method#addExampleData#0;class#RubikTest#0" expanded="false" />
+                <element signature="method#getField#0;class#RubikTest#0" expanded="false" />
+                <marker date="1517093600000" expanded="true" signature="2154:2187" ph="drop table i... " />
+                <marker date="1517093600000" expanded="true" signature="2328:2438" ph="create table... cube_records" />
+                <marker date="1517093600000" expanded="true" signature="2765:2831" ph="INSERT INTO cube_records... " />
+                <marker date="1517093600000" expanded="true" signature="5409:5469" ph="select sql f... " />
+                <marker date="1517093600000" expanded="true" signature="15426:15474" ph="SELECT * FRO... cube_records" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RubikGUIMockDialog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/week_11/RubikGUIMockDialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,7 +82,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>close(</find>
+      <find>@Test</find>
     </findStrings>
+    <replaceStrings>
+      <replace>@Test(timeout=3000)</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -113,8 +148,8 @@
         <option value="$PROJECT_DIR$/src/main/java/week_11/DBConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/week_11/RubikModel.java" />
         <option value="$PROJECT_DIR$/src/test/java/week_11/RubikGUIMockDialog.java" />
-        <option value="$PROJECT_DIR$/src/test/java/week_11/RubikTest.java" />
         <option value="$PROJECT_DIR$/grades/Lab 11 Questions.md" />
+        <option value="$PROJECT_DIR$/src/test/java/week_11/RubikTest.java" />
       </list>
     </option>
   </component>
@@ -195,7 +230,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="63" />
+    <option name="x" value="27" />
     <option name="y" value="77" />
     <option name="width" value="1413" />
     <option name="height" value="817" />
@@ -313,6 +348,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -376,10 +414,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1039,7 +1074,8 @@
       <workItem from="1511910646913" duration="58000" />
       <workItem from="1511910723950" duration="1952000" />
       <workItem from="1512100899684" duration="7985000" />
-      <workItem from="1512511500930" duration="19000" />
+      <workItem from="1512511500930" duration="85000" />
+      <workItem from="1517093169051" duration="429000" />
     </task>
     <task id="LOCAL-00001" summary="Start of week 5">
       <created>1496361654279</created>
@@ -1314,13 +1350,17 @@
       <option name="project" value="LOCAL" />
       <updated>1512164707618</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Specify that name is non-empty for new solver">
+      <created>1512511533062</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1512511533062</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RubikTest - 2017.11.30 at 22h 46m 21s.xml">
-      <configuration name="RubikTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RubikTest - 2017.11.30 at 22h 47m 51s.xml">
       <configuration name="RubikTest" configurationId="JUnit" />
     </history-entry>
@@ -1331,6 +1371,9 @@
       <configuration name="RubikTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RubikTest - 2017.12.01 at 15h 42m 24s.xml">
+      <configuration name="RubikTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RubikTest - 2018.01.27 at 16h 52m 56s.xml">
       <configuration name="RubikTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RubikTest_testTestDatabaseAndTableExists - 2017.11.30 at 22h 49m 45s.xml">
@@ -1350,7 +1393,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163090000" />
+    <option name="totallyTimeSpent" value="163585000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1362,22 +1405,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="63" y="77" width="1413" height="817" extended-state="0" />
+    <frame x="27" y="77" width="1413" height="817" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.100137174" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16689655" sideWeight="0.4913917" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19862069" sideWeight="0.50326264" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882273" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21883656" sideWeight="0.48899928" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45429364" sideWeight="0.48899928" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17451523" sideWeight="0.4971475" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3085339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3129103" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1392,7 +1436,6 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16689655" sideWeight="0.4913917" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24827586" sideWeight="0.49713057" order="1" side_tool="false" content_ui="tabs" />
@@ -1449,7 +1492,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="w5 Q1 done" />
     <MESSAGE value="w5 Q1, Q2" />
     <MESSAGE value="w5 Q3" />
     <MESSAGE value="w5 Q4 questions&#10;" />
@@ -1474,7 +1516,8 @@
     <MESSAGE value="tidying tests and instructions" />
     <MESSAGE value="replacing mysql with sqlite" />
     <MESSAGE value="replaced mysql with sqlite" />
-    <option name="LAST_COMMIT_MESSAGE" value="replaced mysql with sqlite" />
+    <MESSAGE value="Specify that name is non-empty for new solver" />
+    <option name="LAST_COMMIT_MESSAGE" value="Specify that name is non-empty for new solver" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1593,13 +1636,13 @@
       <provider editor-type-id="MultiMarkdownFxPreviewEditor">
         <state />
       </provider>
+      <provider editor-type-id="MultiMarkdownFxHtmlEditor">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
-      </provider>
-      <provider editor-type-id="MultiMarkdownFxHtmlEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/mbox">
@@ -1613,14 +1656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/week_11/RubikGUIMockDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1658,38 +1693,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/week_11/RubikGUI.form">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/week_11/RubikTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="167" column="58" lean-forward="false" selection-start-line="167" selection-start-column="58" selection-end-line="167" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#resetTable#0;class#RubikTest#0" expanded="false" />
-            <element signature="method#addExampleData#0;class#RubikTest#0" expanded="false" />
-            <element signature="method#getField#0;class#RubikTest#0" expanded="false" />
-            <marker date="1512164540000" expanded="true" signature="2241:2274" ph="drop table i... " />
-            <marker date="1512164540000" expanded="true" signature="2415:2525" ph="create table... cube_records" />
-            <marker date="1512164540000" expanded="true" signature="2852:2918" ph="INSERT INTO cube_records... " />
-            <marker date="1512164540000" expanded="true" signature="5468:5528" ph="select sql f... " />
-            <marker date="1512164540000" expanded="true" signature="15515:15563" ph="SELECT * FRO... cube_records" />
-          </folding>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grades/Lab 11 Questions.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="183">
-            <caret line="72" column="256" lean-forward="false" selection-start-line="72" selection-start-column="256" selection-end-line="72" selection-end-column="256" />
+          <first_editor relative-caret-position="-184">
+            <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1698,14 +1715,40 @@
       <provider editor-type-id="MultiMarkdownFxPreviewEditor">
         <state />
       </provider>
+      <provider editor-type-id="MultiMarkdownFxHtmlEditor">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="MultiMarkdownFxHtmlEditor">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/week_11/RubikGUIMockDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/week_11/RubikTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#resetTable#0;class#RubikTest#0" expanded="false" />
+            <element signature="method#addExampleData#0;class#RubikTest#0" expanded="false" />
+            <element signature="method#getField#0;class#RubikTest#0" expanded="false" />
+            <marker date="1517093600000" expanded="true" signature="2154:2187" ph="drop table i... " />
+            <marker date="1517093600000" expanded="true" signature="2328:2438" ph="create table... cube_records" />
+            <marker date="1517093600000" expanded="true" signature="2765:2831" ph="INSERT INTO cube_records... " />
+            <marker date="1517093600000" expanded="true" signature="5409:5469" ph="select sql f... " />
+            <marker date="1517093600000" expanded="true" signature="15426:15474" ph="SELECT * FRO... cube_records" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
