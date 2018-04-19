@@ -1,5 +1,7 @@
 package week_11;
 
+import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
 
 import javax.swing.*;
@@ -360,7 +362,6 @@ public class RubikTest {
     public void testEditSolverTimeInvalid() {
         
         setup(true);     // Expect data in table
-        
         
         // Invalid data. Should see alert.
         

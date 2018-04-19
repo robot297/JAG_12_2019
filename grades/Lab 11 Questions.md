@@ -52,21 +52,17 @@ Verify the DB connection URL is correct in DBConfig.
 
 ### GUI setup
 
-Create a GUI to view, edit, add to, and delete, this data. 
-
-The solversTable should get data from a RubikModel AbstractTableModel. 
-
+Create a GUI to view, edit, add to, and delete, this data in a JTable. 
 
 Your GUI should have these components, configured in the following way,
 
-
 **For displaying all current data:**
 
-* A JTable called `solversTable` with two columns for solver_name and time_seconds, that displays all of the data from those columns in the database.  It should be configured to be non-editable, and single row selection.
+* A JTable called `solversTable` with two columns for solver_name and time_seconds, that displays all of the data from those columns in the database.  It should be configured to be **non-editable**, and **single row selection**.
 
-When the program loads, it will show all (solver_name and time_seconds) data from the database. As the user adds, deletes, or edits data, the table will update.
+When the program loads, it will show all the data from the database. As the user adds, deletes, or edits data, the table will update.
 
-*Keep your data sorted in order of time, with fastest first*.
+*Keep your data sorted in order of time, with fastest first*. Don't use the autosort feature. Use a database query that fetches and sorts (orders) the data with fastest time first.
 
 You will need to create a table model for `solversTable`. This table model will provide data from the database to its JTable.
 
@@ -76,7 +72,7 @@ You will need to create a table model for `solversTable`. This table model will 
 * A JTextField called `newCubeSolverTimeText`
 * A JButton called `addNewSolverButton`
 
-When the user clicks the `addNewSolverButton` button, validate that a name and a double time have been entered in the appropriate JTextBoxes. The time must be positive, and not zero. The name must be at least one character. Empty names are not acceptable. If so, add the data to the database and update `solversTable`. 
+When the user clicks the `addNewSolverButton` button, validate that a name and a double time have been entered in the appropriate JTextField. The time must be positive, and not zero. The name must be at least one character. Empty names are not acceptable. If the name and time are both valid, add the data to the database and update `solversTable`. 
 
 If not, display an JOptionPane alert dialog, and do not modify the database or JTable.
 
@@ -86,9 +82,9 @@ If not, display an JOptionPane alert dialog, and do not modify the database or J
 * JTextField called `updateTimeText`
 * JLabel called `updateSolverNameLabel`   
 
-When the user selects a row in the table, the current name will be show in updateSolverNameLabel and that solver's time will be shown in updateTimeText. 
+When the user selects a row in the table, the current name will be show in `updateSolverNameLabel` and that solver's time will be shown in `updateTimeText`. 
   
-To update a time, the user will select the solver's row in the table, edit the updateTimeText to the new time, and click `updateTimeButton`. The program will validate that the new time is also a non-zero double value. If so, the database table will be updated, and the GUI table will update. If the new text entered is not a double, show a JOptionPane alert dialog and do not modify the DB table or JTable. 
+To update a time, the user will select the solver's row in the table, edit `updateTimeText` to the new time, and click `updateTimeButton`. The program will validate that the new time is also a non-zero double value. If so, the database table will be updated, and the GUI table will update. If the new text entered is not a double, show a JOptionPane alert dialog and do not modify the DB table or JTable. 
 
 The current row should remain selected. 
 
@@ -103,7 +99,6 @@ To delete a row, the user will select that row in the table and click  `deleteSo
 Show a JOptionPane dialog with 'Yes' and 'No' options to confirm the delete operation. If the user clicks 'Yes' then delete the row from the database and update the JTable. 
 
 If the user clicks 'No' then do nothing.
-
 
 For all parts of this lab, make sure you add appropriate error handling. 
 
