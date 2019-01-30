@@ -1,9 +1,9 @@
-{ "week" : 10 ,
+{ "week" : 11 ,
   "questions" : [
     {
       "question" : 1,
       "java_file": "Rubik",
-      "test_file": "RubikTest",
+      "test_files": ["week_11.RubikTest"],
       "points": 20
     }
   ]
