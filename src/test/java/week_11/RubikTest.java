@@ -286,14 +286,14 @@ public class RubikTest {
         // Add 3 new rows
         
         newCubeSolverNameText.setText("Velociraptor");
-        newCubeSolverTimeText.setText("9999999.99");
+        newCubeSolverTimeText.setText("99999.99");
         addNewSolverButton.doClick();
         
         // Expected data
         String[][] expected_3_rows = {
                 {"2", "Raccoon", "4000.23"},
                 {"1", "Cat", "12345.41"},
-                {"3", "Velociraptor", "9999999.99"}
+                {"3", "Velociraptor", "99999.99"}
         };
         
         // Should be in table
