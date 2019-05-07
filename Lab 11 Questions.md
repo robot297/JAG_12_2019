@@ -2,6 +2,8 @@
 
 Write an GUI application to manage a database of things that can solve Rubik's cubes, and their fastest time.
 
+A class should have a focused responsibility. GUI and database work are two separate tasks - so don't do database work in the RubikGUI class. Create a new class to handle talking to the database. The GUI will delegate database tasks to this new class. 
+
 ### Database setup:
 
 Using the SQLite shell or DB Browser, create a database in a file called **rubik.db**. 
