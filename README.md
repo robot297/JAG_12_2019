@@ -1,4 +1,4 @@
-## Java Lab 11, Java Database and GUI
+## Java Lab 12, Java Database and GUI
 
 ### Rubik Cube Records GUI
 

@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="973dfb87-52db-448c-966c-e7a5a696eb0a" name="Default" comment="remove example databases">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Auto_Grader_11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Auto_Grader_12.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grades/grade_scheme.json" beforeDir="false" afterPath="$PROJECT_DIR$/grades/grade_scheme.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week_11/DBConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week_12/DBConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week_11/Rubik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week_12/Rubik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week_11/RubikGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week_12/RubikGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week_11/RubikGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week_12/RubikGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week_11/RubikGUIMockDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week_12/RubikGUIMockDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week_11/RubikTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week_12/RubikTest.java" afterDir="false" />
     </list>
-    <ignored path="Java_Auto_Grader_5_6_7.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,69 +25,8 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-2135273753">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="txt" value="24" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="24" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="Java_Auto_Grader_5_6_7" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lab 11 Questions.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="1560">
-                <caret line="104" column="89" selection-start-line="104" selection-start-column="89" selection-end-line="104" selection-end-column="89" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/week_11/RubikTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5775">
-              <caret line="438" column="16" selection-start-line="438" selection-start-column="12" selection-end-line="438" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#resetTable#0;class#RubikTest#0" />
-                <element signature="method#addExampleData#0;class#RubikTest#0" />
-                <element signature="method#getField#0;class#RubikTest#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -103,69 +48,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/test/java/test_utils/ReflectionUtils.java" />
-        <option value="$PROJECT_DIR$/src/test/java/week_8/blood_donor/Question_1_BloodDonor_Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week_8/snake/Snake.java" />
-        <option value="$PROJECT_DIR$/src/test/java/week_8/snake/SnakeTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/week_8/agile_waterfall/Question_2_Agile_Or_Waterfall_Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week_8/agile_waterfall/AgileWaterfallGUI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week_8/garden/FileWriter.java" />
-        <option value="$PROJECT_DIR$/src/test/java/week_8/garden/FileWriterTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/week_8/garden/GardenInvoiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week_8/garden/InvoiceWriter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week_8/garden/InvoiceGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week_8/garden/Garden.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week_8/garden/GardenerGUI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week_8/garden/GardenPriceData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week_8/garden/GardenServiceData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week_8/garden/GardenerGUI.form" />
-        <option value="$PROJECT_DIR$/grades/Lab 8 Questions.md" />
-        <option value="$PROJECT_DIR$/src/test/java/week_9/garden/GardenInvoiceTest.java" />
-        <option value="$PROJECT_DIR$/grades/week_9.json" />
-        <option value="$PROJECT_DIR$/src/test/java/week_9/TicketGUITest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/week_9/TicketTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week_9/Question_3_Support_Ticket_Manager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week_9/Ticket.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week_9/TicketFileStorage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week_9/TicketGUI.java" />
-        <option value="$PROJECT_DIR$/grades/Lab 9 Questions.md" />
-        <option value="$PROJECT_DIR$/src/main/java/week_9/TicketGUI.form" />
-        <option value="$PROJECT_DIR$/src/main/java/week_9/TicketStore.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week_9/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week_10/Main.java" />
-        <option value="$PROJECT_DIR$/grades/week_10.json" />
-        <option value="$PROJECT_DIR$/src/main/java/week_10/DB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week_10/RubikDB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week_10/Rubik.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week_10/RubikGUI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week_10/DBConfig.java" />
-        <option value="$PROJECT_DIR$/src/test/java/week_10/RubikTest.java" />
-        <option value="$PROJECT_DIR$/grades/Lab 10 Questions.md" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/week_11/RubikDB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week_11/Rubik.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week_11/RubikGUI.form" />
-        <option value="$PROJECT_DIR$/src/main/java/week_11/RubikGUI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week_11/DBConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week_11/RubikModel.java" />
-        <option value="$PROJECT_DIR$/src/test/java/week_11/RubikGUIMockDialog.java" />
-        <option value="$PROJECT_DIR$/grades/Lab 11 Questions.md" />
-        <option value="$PROJECT_DIR$/grades/week_11.json" />
-        <option value="$PROJECT_DIR$/grades/config.json" />
-        <option value="$PROJECT_DIR$/src/test/java/week_11/RubikTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -173,82 +55,13 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Java_Auto_Grader_5_6_7" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Java_Auto_Grader_5_6_7" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Plugins" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="surefire" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Java_Auto_Grader_5_6_7" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Plugins" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Java_Auto_Grader_5_6_7" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Profiles" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProfilesNode" />
-        </PATH_ELEMENT>
-      </PATH>
-    </treeState>
-  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="206" />
     <option name="y" value="44" />
     <option name="width" value="1093" />
     <option name="height" value="856" />
   </component>
+  <component name="ProjectId" id="1SXoEYmeUuAMJg0JhD0a9SAtx05" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -347,27 +160,6 @@
     </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Java_Auto_Grader_11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JAG_11_SQLite" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -375,6 +167,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="289" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -385,7 +178,7 @@
     <property name="options.lastSelected" value="configurable.group.tools" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -436,54 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.week_11 in Java_Auto_Grader_11">
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="GAPID_DISABLE_PCS" value="false" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="GAPID_DISABLE_PCS" value="false" />
-      </Profilers>
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.week_12 in Java_Auto_Grader_12">
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -546,7 +292,62 @@
       <setting name="rowsRange" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
+    <configuration default="true" type="AndroidRunConfigurationType">
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Java />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType">
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Java />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -564,6 +365,7 @@
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
@@ -576,6 +378,7 @@
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
       <properties />
@@ -595,16 +398,17 @@
       <method v="2" />
     </configuration>
     <configuration name="RubikTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java_Auto_Grader_11" />
+      <module name="Java_Auto_Grader_12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week_11.*" />
+          <option name="PATTERN" value="week_12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week_11" />
-      <option name="MAIN_CLASS_NAME" value="week_11.RubikTest" />
+      <option name="PACKAGE_NAME" value="week_12" />
+      <option name="MAIN_CLASS_NAME" value="week_12.RubikTest" />
       <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
       <method v="2">
@@ -612,15 +416,15 @@
       </method>
     </configuration>
     <configuration name="RubikTest.testEditSolverTimeValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java_Auto_Grader_11" />
+      <module name="Java_Auto_Grader_12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week_11.*" />
+          <option name="PATTERN" value="week_12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week_11" />
-      <option name="MAIN_CLASS_NAME" value="week_11.RubikTest" />
+      <option name="PACKAGE_NAME" value="week_12" />
+      <option name="MAIN_CLASS_NAME" value="week_12.RubikTest" />
       <option name="METHOD_NAME" value="testEditSolverTimeValid" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -629,15 +433,15 @@
       </method>
     </configuration>
     <configuration name="RubikTest.testTestDatabaseAndTableExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java_Auto_Grader_11" />
+      <module name="Java_Auto_Grader_12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week_11.*" />
+          <option name="PATTERN" value="week_12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week_11" />
-      <option name="MAIN_CLASS_NAME" value="week_11.RubikTest" />
+      <option name="PACKAGE_NAME" value="week_12" />
+      <option name="MAIN_CLASS_NAME" value="week_12.RubikTest" />
       <option name="METHOD_NAME" value="testTestDatabaseAndTableExists" />
       <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
@@ -647,15 +451,15 @@
       </method>
     </configuration>
     <configuration name="RubikTest.testTestDevelopmentDatabaseAndTableExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java_Auto_Grader_11" />
+      <module name="Java_Auto_Grader_12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week_11.*" />
+          <option name="PATTERN" value="week_12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week_11" />
-      <option name="MAIN_CLASS_NAME" value="week_11.RubikTest" />
+      <option name="PACKAGE_NAME" value="week_12" />
+      <option name="MAIN_CLASS_NAME" value="week_12.RubikTest" />
       <option name="METHOD_NAME" value="testTestDevelopmentDatabaseAndTableExists" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -664,20 +468,21 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="week_11 in Java_Auto_Grader_11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java_Auto_Grader_11" />
+    <configuration name="week_12 in Java_Auto_Grader_12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Auto_Grader_12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week_11.*" />
+          <option name="PATTERN" value="week_12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week_11" />
+      <option name="PACKAGE_NAME" value="week_12" />
       <option name="TEST_OBJECT" value="package" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -731,7 +536,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <properties />
       <listeners />
@@ -739,16 +545,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
@@ -762,11 +568,11 @@
       <item itemvalue="JUnit.RubikTest.testEditSolverTimeValid" />
       <item itemvalue="JUnit.RubikTest.testTestDevelopmentDatabaseAndTableExists" />
       <item itemvalue="JUnit.RubikTest.testTestDatabaseAndTableExists" />
-      <item itemvalue="JUnit.week_11 in Java_Auto_Grader_11" />
+      <item itemvalue="JUnit.week_12 in Java_Auto_Grader_12" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.week_11 in Java_Auto_Grader_11" />
+        <item itemvalue="JUnit.week_12 in Java_Auto_Grader_12" />
         <item itemvalue="JUnit.RubikTest" />
         <item itemvalue="JUnit.RubikTest.testTestDatabaseAndTableExists" />
         <item itemvalue="JUnit.RubikTest.testTestDevelopmentDatabaseAndTableExists" />
@@ -811,6 +617,7 @@
       <workItem from="1524175019515" duration="720000" />
       <workItem from="1548819068418" duration="316000" />
       <workItem from="1554331674172" duration="238000" />
+      <workItem from="1571719194264" duration="68000" />
     </task>
     <task id="LOCAL-00001" summary="Start of week 5">
       <created>1496361654279</created>
@@ -1148,9 +955,6 @@
       <configuration name="week_11 in Java_Auto_Grader_11" configurationId="JUnit" />
     </history-entry>
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166010000" />
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -1160,80 +964,22 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="206" y="44" width="1093" height="856" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28829685" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Palette&#9;" order="4" />
-      <window_info id="Image Layers" order="5" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49713057" weight="0.2473822" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48899928" visible="true" weight="0.28458497" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49751598" weight="0.20053476" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.09943182" />
-      <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="Changes" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50326264" side_tool="true" weight="0.19862069" />
-      <window_info anchor="bottom" id="IDEtalk Messages" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4913917" weight="0.16619319" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.328125" />
-      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.4971475" weight="0.22727273" />
-      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Designer" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32964602" />
-      <window_info anchor="right" id="IDEtalk" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23204023" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Palette&#9;" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49713057" weight="0.24827586" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48899928" weight="0.23172414" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49751598" weight="0.20053476" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.100137174" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50326264" side_tool="true" weight="0.19862069" />
-      <window_info anchor="bottom" id="Application Servers" order="8" />
-      <window_info anchor="bottom" id="Changes" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4913917" weight="0.16689655" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32882273" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4971475" visible="true" weight="0.07862069" />
-      <window_info anchor="bottom" id="IDEtalk Messages" order="13" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="IDEtalk" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32964602" />
-      <window_info anchor="right" id="Designer" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="8" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.gitignore" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1242,9 +988,6 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -1279,260 +1022,5 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/edu/minneapolis/input-utils/1.0.1/input-utils-1.0.1-sources.jar!/input/InputUtils.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week_7/ticket/TicketStore.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week_7/ticket/TicketUI.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week_7/ticket/Ticket.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week_8/blood_donor/Question_1_InsectManager.java" />
-    <entry file="file://$PROJECT_DIR$/screenshots/placeholder.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="125" selection-start-line="1" selection-start-column="125" selection-end-line="1" selection-end-column="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/javax/swing/JFrame.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week_9/blood_donor/Q1_DonorProgram.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week_9/blood_donor/DonorGUI.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/week_8/snake/TicketTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/week_8/garden/SnakeTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/week_9/blood_donor/Question_1_BloodDonor_Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week_9/agile_waterfall/AgileWaterfallProgram.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week_9/agile_waterfall/AgileWaterfallGUI.form" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week_9/blood_donor/DonorGUI.form" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week_9/agile_waterfall/AgileWaterfallGUI.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/week_9/agile_waterfall/Question_2_Agile_Or_Waterfall_Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week_9/garden/Garden.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week_9/garden/InvoiceGenerator.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week_9/garden/InvoiceWriter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week_9/garden/GardenerGUI.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week_9/garden/GardenServiceData.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week_9/garden/GardenerGUI.form" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/week_9/garden/GardenInvoiceTest.java" />
-    <entry file="file://$PROJECT_DIR$/Java_Auto_Grader_11.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week_9/Question_3_Support_Ticket_Manager.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week_9/TicketUI.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week_10/TicketFileIO.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/week_10/TicketTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week_10/Ticket.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week_10/TicketGUI.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week_10/TicketGUI.form" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week_10/TicketStore.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/javax/swing/JButton.java" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/mbox" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/week_11/RubikGUIMockDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week_11/RubikModel.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week_11/RubikGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="82" selection-start-line="52" selection-start-column="82" selection-end-line="52" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test_utils/ArrayUtils.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/test_utils/MockInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test_utils/ReflectionUtils.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/test_utils/PrintUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grades/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grades/grade_scheme.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week_11/Rubik.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week_11/DBConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week_11/RubikGUI.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/week_11/RubikTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5775">
-          <caret line="438" column="16" selection-start-line="438" selection-start-column="12" selection-end-line="438" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#resetTable#0;class#RubikTest#0" />
-            <element signature="method#addExampleData#0;class#RubikTest#0" />
-            <element signature="method#getField#0;class#RubikTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab 11 Questions.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="1560">
-            <caret line="104" column="89" selection-start-line="104" selection-start-column="89" selection-end-line="104" selection-end-column="89" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Java_Auto_Grader_11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: edu.minneapolis:input-utils:1.0.2</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

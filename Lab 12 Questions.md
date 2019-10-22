@@ -1,4 +1,4 @@
-## Lab 11: GUI and Database Programs: Rubik Cube Solver Database   
+## Lab 12: GUI and Database Programs: Rubik Cube Solver Database   
 
 Write an GUI application to manage a database of things that can solve Rubik's cubes, and their fastest time.
 
