@@ -13,6 +13,8 @@ And, create a test database file called **rubik_test.db**.
 The rubik database should have a table called **cube_records**.
 The rubik_test database should also have a table called **cube_records**. Both tables should have the same structure.
  
+**Add rubik.db and rubik_test.db to your git repository.**  
+ 
 The cubes table (in both databases) should have three columns, 
 
 * **id** the primary key column, an integer, used as a rowid. 
@@ -60,7 +62,7 @@ Your GUI should have these components, configured in the following way,
 
 **For displaying all current data:**
 
-* A JTable called `solversTable` with two columns for solver_name and time_seconds, that displays all of the data from those columns in the database.  It should be configured to be **non-editable**, and **single row selection**.
+* A JTable called `solversTable` with three columns for id, solver_name, and time_seconds, that displays all of the data from those columns in the database.  It should be configured to be **non-editable**, and **single row selection**.
 
 When the program loads, it will show all the data from the database. As the user adds, deletes, or edits data, the table will update.
 
@@ -74,7 +76,7 @@ You will need to create a table model for `solversTable`. This table model will 
 * A JTextField called `newCubeSolverTimeText`
 * A JButton called `addNewSolverButton`
 
-When the user clicks the `addNewSolverButton` button, validate that a name and a double time have been entered in the appropriate JTextField. The time must be positive, and not zero. The name must be at least one character. Empty names are not acceptable. If the name and time are both valid, add the data to the database and update `solversTable`. 
+When the user clicks the `addNewSolverButton` button, validate that a name and a double time have been entered in the appropriate JTextField. The time must be positive, and not zero. The name must be at least one character. Empty names are not acceptable. If the name and time are both valid, add the data to the database and update `solversTable` in the GUI.
 
 If not, display an JOptionPane alert dialog, and do not modify the database or JTable.
 
@@ -84,7 +86,7 @@ If not, display an JOptionPane alert dialog, and do not modify the database or J
 * JTextField called `updateTimeText`
 * JLabel called `updateSolverNameLabel`   
 
-When the user selects a row in the table, the current name will be show in `updateSolverNameLabel` and that solver's time will be shown in `updateTimeText`. 
+When the user selects a row in the table, the current name will be shown in `updateSolverNameLabel` and that solver's time will be shown in `updateTimeText`. 
   
 To update a time, the user will select the solver's row in the table, edit `updateTimeText` to the new time, and click `updateTimeButton`. The program will validate that the new time is also a non-zero double value. If so, the database table will be updated, and the GUI table will update. If the new text entered is not a double, show a JOptionPane alert dialog and do not modify the DB table or JTable. 
 
@@ -104,4 +106,4 @@ If the user clicks 'No' then do nothing.
 
 For all parts of this lab, make sure you add appropriate error handling. 
 
-When showing dialogs, use the methods provided in RubikGUI, or your tests will time out. 
+**When showing dialogs, use the methods provided in RubikGUI, or your tests will time out.** 

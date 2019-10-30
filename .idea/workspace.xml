@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="973dfb87-52db-448c-966c-e7a5a696eb0a" name="Default" comment="remove example databases">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Auto_Grader_11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Auto_Grader_12.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grades/grade_scheme.json" beforeDir="false" afterPath="$PROJECT_DIR$/grades/grade_scheme.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week_11/DBConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week_12/DBConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week_11/Rubik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week_12/Rubik.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week_11/RubikGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week_12/RubikGUI.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week_11/RubikGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week_12/RubikGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week_11/RubikGUIMockDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week_12/RubikGUIMockDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week_11/RubikTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week_12/RubikTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="973dfb87-52db-448c-966c-e7a5a696eb0a" name="Default" comment="renumber" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,15 +22,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>close(</find>
-      <find>@Test</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>@Test(timeout=3000)</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -54,12 +31,6 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="206" />
-    <option name="y" value="44" />
-    <option name="width" value="1093" />
-    <option name="height" value="856" />
   </component>
   <component name="ProjectId" id="1SXoEYmeUuAMJg0JhD0a9SAtx05" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -617,7 +588,7 @@
       <workItem from="1524175019515" duration="720000" />
       <workItem from="1548819068418" duration="316000" />
       <workItem from="1554331674172" duration="238000" />
-      <workItem from="1571719194264" duration="68000" />
+      <workItem from="1571719194264" duration="301000" />
     </task>
     <task id="LOCAL-00001" summary="Start of week 5">
       <created>1496361654279</created>
@@ -920,7 +891,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554331696893</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="renumber">
+      <created>1571719378352</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1571719378352</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -992,7 +970,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="w5 Q4 questions&#10;" />
     <MESSAGE value="Q5 underway" />
     <MESSAGE value="Q5" />
     <MESSAGE value="Q6" />
@@ -1017,7 +994,8 @@
     <MESSAGE value="Specify that name is non-empty for new solver" />
     <MESSAGE value="Don't insist on AbstractTableModel, fix formatting in instructions" />
     <MESSAGE value="remove example databases" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove example databases" />
+    <MESSAGE value="renumber" />
+    <option name="LAST_COMMIT_MESSAGE" value="renumber" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
